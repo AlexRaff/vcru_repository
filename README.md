@@ -57,8 +57,8 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/your-repo.git
-cd your-repo
+git clone https://github.com/AlexRaff/vcru_repository.git
+cd vcru_repository
 ````
 
 2. Убедитесь, что у вас установлен PHP с PDO и SQLite.
@@ -66,13 +66,13 @@ cd your-repo
 3. Запустите веб-сервер, например встроенный в PHP:
 
 ```bash
-php -S localhost:8000 -t public 
+php -S localhost:8777 -t public 
 ```
 
 4. Перейдите в браузере по адресу:
 
 ```
-http://localhost:8000/
+http://localhost:8777/
 ```
 
 ---
